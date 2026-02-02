@@ -1,8 +1,8 @@
-# PROJECT OVERVIEW
-As a penetration tester, I conducted a security assessment of a web application’s administrative access controls after identifying indicators of weak trust-based authentication logic. The engagement focused on validating whether access restrictions enforced on the admin interface could be bypassed through protocol-level manipulation. By analyzing server responses and HTTP method behavior, I uncovered an information disclosure that exposed an internal authorization header. Exploiting this weakness allowed unauthorized administrative access and execution of privileged actions.
+# OVERVIEW
+I conducted a security assessment of the web application’s administrative access controls after identifying indicators of weak trust-based authentication logic. The engagement focused on validating whether access restrictions enforced on the admin interface could be bypassed through protocol-level manipulation. By analyzing server responses and HTTP method behavior, I uncovered an information disclosure that exposed an internal authorization header. Exploiting this weakness allowed unauthorized administrative access and execution of privileged actions.
 
 
-# Steps Undertaken
+# Methodology
 Step 1: Assessed administrative access controls and denial responses to identify trust assumptions and enforcement logic.
 
 Step 2: Analyzed HTTP methods and server behavior to detect information disclosure vectors, including reflected headers.
